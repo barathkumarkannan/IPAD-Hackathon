@@ -1,0 +1,6 @@
+/framework_logs
+/spark_logs
+/target
+/jar
+*.jar
+*.log

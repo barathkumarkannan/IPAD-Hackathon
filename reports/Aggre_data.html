@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+
+        /* Card Styles */
+        .block {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+
+
+        /* Typography Styles */
+        h1{
+        color: #aab;
+        }
+        h2, h3 {
+            color: #333;
+        }
+
+
+
+        p {
+            color: #667;
+        }
+
+        table {
+            background-color: #f0f0f0;
+            colour: #333333
+            font-family : Arial
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            padding: auto;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        th {
+            font : Arial
+        }
+</style>
+</head>
+
+
+
+<body>
+<header>
+<h1>IPAD- Integration Pipeline Automation of Data</h1>
+</header><div class="block">
+<h2>SOURCE</h2>
+<p> Raw data from different source </p>
+<br><table border='1'><tr><th>Validation Type</th><th>Value</th></tr><tr><td>Total Rows</td><td>400</td></tr><tr><td>Non-NULL Rows</td><td>396</td></tr><tr><td>NULL Rows</td><td>4</td></tr><tr><td>Unique Records</td><td>198</td></tr><tr><td>Duplicate Records</td><td>198</td></tr></table></div><div class="block">
+<h2>STAGING</h2>
+<p> Staged data After ingestion from snowflake </p>
+<br><table border='1'><tr><th>Validation Type</th><th>Value</th></tr><tr><td>Total Rows</td><td>400</td></tr><tr><td>Non-NULL Rows</td><td>396</td></tr><tr><td>NULL Rows</td><td>4</td></tr><tr><td>Unique Records</td><td>198</td></tr><tr><td>Duplicate Records</td><td>198</td></tr></table></div><div class="block">
+    <h2>CHECKPOINTS</h2>
+    <p> Source vs Staging </p>
+    <br><table border='1'><tr><th>Validation Type</th><th>Value</th></tr><tr><td>Total Rows</td><td>PASS</td></tr><tr><td>Non-NULL Rows</td><td>PASS</td></tr><tr><td>NULL Rows</td><td>PASS</td></tr><tr><td>Unique Records</td><td>PASS</td></tr><tr><td>Duplicate Records</td><td>PASS</td></tr></table></div>
+</body>
+</html>
